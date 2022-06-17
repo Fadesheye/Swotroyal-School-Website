@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+    /* width: 100%; */
+}
+.about-banner img{
+    width: 100%;
+    /* height: 200px; */
+}
+.about-section{
+    width: 95%;
+    padding: 4% 11%;
+}
+.about-section h1{
+    font-weight: bold;
+    font-size: 2.5em;
+}
+.about-section h2{
+    font-size: 2em;
+}
+
+.about-section hr{
+    width: 100px;
+    height: 2px;
+    background-color: rgba(255, 136, 0, 0.5);
+}
+.mission-section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.mission-section .mission-column{
+    padding: 25px;
+    text-align: justify;
+    line-height: 2;
+}
+
+.services-img{
+    /* padding-left: 20px; */
+    padding: 0px 0px 80px 150px;
+}
+.events-post{
+    display: flex;
+    padding:50px 0px;
+}
+.events-post img{
+    width: 30%;
+}
+.events-desc{
+    padding: 30px;
+    width: 50%;
+    background-color: rgb(240, 240, 240);
+} 
+.facility{
+    padding: 30px;
+}
+.facility ul{
+    font-size: 18px;
+}
+.marguee{
+    font-size: 20px;
+    background-color: red;
+    color: whitesmoke;
+}
+
+
+
+
+
+
+@keyframes slide {
+    0% {
+        transform: translate3d(-500px, 0px, 0px);
+        animation-timing-function: ease-in-out;
+    }
+    /* 50% {
+        transform: translate3d(140px, 0px, 0px);
+        animation-timing-function: ease-in;
+        
+    } */
+    100% {
+        /* transform: translate3d(200px, 0px, 0px); */
+        /* animation-timing-function: ease-in-out; */
+    }
+}
+
+
+@media screen and (max-width: 767px){
+    .nav{
+        margin: 0px;
+    }
+    .nav li:nth-child(1), .nav li:nth-child(2),.nav li:nth-child(3),.nav li:nth-child(4),
+    .nav li:nth-child(5),.nav li:nth-child(6),.nav li:nth-child(7),.nav li:nth-child(8) {
+        float: left;
+        width: 100%;
+        /* padding: 0px; */
+    }
+    .header-box{
+        display: block;
+        width: 100%;
+        margin-right: auto;
+        /* padding-bottom: 30px; */
+        
+    }
+    .header-box h1{
+        display: block;
+    }
+    .header-box ul li{
+        display: block;
+    }
+    .column-posts{
+        display: block;
+        /* margin-bottom: 20px; */
+    }
+    .banner-text{
+        left: 150px;
+        top: 15px;
+        font-size: 35px;
+        /* display: flex; */
+    }
+    .banner-desc button{
+        display: none;
+    }
+    .banner-img{
+        margin-bottom: 100px;
+    }
+    #admission-tab{
+        height: 200px;
+    }
+    #admission-tab .admission-text p{
+        font-size: 80%;
+    }
+    #admission-tab .admission-text h2{
+        font-size: 17px
+    }
+    #admission-tab .button{
+        font-size: 12px;
+        padding-top: 4px;
+    }
+    .activity-1 .container .row{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 1024px;
+        
+    }
+    
+    .activity-2 .container .row{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 1024px;
+
+    }
+    .swotpic-desc{
+     
+        /* float: left;     */
+        display: none;
+        /* width: 20%; */
+    }
+    .bottom-pg{
+        display: block;
+        width: 100%;
+    }
+    .bottom-pg h3{
+        color: #ffff;
+    }
+    #bottom-about{
+        margin-left: 0%;
+        text-align: justify;
+    } 
+    .about-section{
+        text-align: justify;
+    }
+     .mission-column{
+         display: block;
+         font-size: 80%;
+         margin-left: -30px;
+    }
+    .mission-column h3{
+        font-size: 20px;
+    }
+    .services-img img{
+        margin-left: -150px;
+        width: 400px;
+    }
+    .events-post{
+        display:block ;
+        /* width: 100%; */
+    }
+    .events-post img{
+        width: 400px;
+    }
+    .events-desc{
+        width: 400px;
+    }
+}

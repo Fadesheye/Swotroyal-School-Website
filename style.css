@@ -433,6 +433,13 @@ footer{
     
 }
 
+@media only screen and (max-width:900px){
+    .column-item1, .column-item2, .column-item3{
+    margin-top:3rem;
+
+    }
+
+}
 
 
 
